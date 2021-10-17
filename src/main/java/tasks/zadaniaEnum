@@ -1,0 +1,29 @@
+Zadanie 1
+Stwórz klasę enum Weekday ze stałymi MONDAY , TUESDAY , ... SUNDAY . Enum
+powinien zawierać metody boolean isWeekDay oraz boolean isHoliday .
+Metoda isHoliday powinna zwracać rezultat przeciwny od rezultuatu
+wywołania metody isWeekDay . Dodatkowo w ramach klasy enum powinna być
+zadeklarowana i zaimplementowana metoda whichIsGreater . Metoda ta
+powinna przyjmować obiekt typu Weekday . Metoda ta powinna wyświetlać
+informacje o tym, że wskazany dzień tygodnia jest poprzednikiem bądź
+następnikiem dnia tygodnia przekazanego w argumencie. W tym celu skorzystaj
+z metody compareTo .
+Zaprezentuj zaimplementowane powyżej rozwiązanie na przykładzie.
+
+Zadanie 2
+Stwórz klasę enum PackageSize ze stałymi SMALL , MEDIUM , LARGE . Enum
+powinien przyjmować w konstruktorze dwa parametry:
+minimalny rozmiar paczki w cm
+maksymalny rozmiar paczki w cm
+Dodatkowo enum PackageSize powinien zawierać metodę statyczną
+getPackageSize , która przyjmuje na wejściu minimalny i maksymalny rozmiar
+paczki, a jako rezultat powinna zwracać konkretny obiekt PackageSize na
+podstawie przekazanego rozmiaru paczki.
+
+Zadanie 3
+Stwórz klasę enum TemperatureConvert ze stałymi C_F , C_K , K_C , F_C , F_K ,
+K_F . Enum powinien zawierać konstruktor przyjmujący trzy parametry:
+jednostkę temperatury na wejściu
+jednostkę temperatury na wyjściu
+instancję interfejsu Converter (z metodą float convert(float tempIn) ) -
+instancja ta powinna de
